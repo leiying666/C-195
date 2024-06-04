@@ -1,0 +1,33 @@
+下列程序的输出结果是（）
+int main() {
+    char p1[15]="abcd", *p2="ABCD", str[50]="xyz";
+    strcpy(str + 2, strcat(p1+2, p2+1));
+    printf("%s", str);
+    return 0;
+}
+
+
+A
+xyabcAB
+B
+abcABz
+C
+ABabcz
+D
+xycdBCD
+正确答案：D
+
+
+下列运算符中优先级最高的是（ ）
+A
+<
+B
++
+C
+&&
+D
+!=
+正确答案：B
+  淡云一笔，鞍落三服 
+ 
+  (单目)(算术)(移位)(比较),(按位)(逻辑)(三目)(赋值)
